@@ -44,3 +44,17 @@ let idioma;
 //B
 console.log("Imprimiendo la variable idioma", idioma)
 console.log("¿Es ",pais , "un pais tercermundiasta?",esTercerMundista);
+
+//3.
+/*
+a. Establezca el valor de 'idioma' en el idioma que se
+habla donde vive.
+b. Piense en qué variables deberían ser variables
+constantes (¿qué valores nunca cambian y cuáles podrían
+cambiar?). Luego, cambia estas variables a const.
+c. observe lo que sucede.*/
+
+idioma = "Español";
+console.log("Imprimiendo idioma ya estando definida",idioma)
+
+console.log("Al intentar redefinir una variable const observamos que nos sale un error ya que este tipo de variables con const no se pueden redefinir")
