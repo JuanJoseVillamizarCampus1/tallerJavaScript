@@ -58,3 +58,51 @@ idioma = "Español";
 console.log("Imprimiendo idioma ya estando definida",idioma)
 
 console.log("Al intentar redefinir una variable const observamos que nos sale un error ya que este tipo de variables con const no se pueden redefinir")
+
+
+/*
+4.
+a.
+Si su país se dividiera por la mitad, y cada mitad contendría la
+mitad de la población, Entonces, ¿cuántas personas vivirían en cada
+mitad?
+b.
+Aumente la población de su país en 1M y registre el resultado
+en la consola
+c.
+Finlandia tiene una población de 6 millones. ¿Tu país tiene más
+gente que ¿Finlandia?
+d.
+La población promedio de un país es de 33 millones de
+personas. ¿Tu país tiene menos gente que el país promedio?
+e.
+Basado en las variables que creó, cree una nueva variable
+'descripción' que contiene una cadena con este formato: 'Colombia
+está en América, y Bucaramanga que está en el departamento de
+Santander tiene un barrio llamado el prado y sus 3000 personas
+hablan inglés.
+*/
+
+//A
+let dividiendoPais = habitantesDeColombia/2;
+
+console.log("Si mi pais se dividiera a la mitad cada mitad tendra: ",dividiendoPais);
+
+//B
+aumentandoPoblacion=habitantesDeColombia+1000000;
+console.log("Si aumento la poblacion de mi pais en un 1M quedarian",aumentandoPoblacion," Perosnas.");
+
+//C
+let finlandia = 6000000;
+let comparandoPoblacion = habitantesDeColombia<finlandia;
+console.log("Finlandia tiene mas personas que Colombia?",comparandoPoblacion);
+
+//D
+let poblacionPromedio = 33000000;
+comparandoPoblacion = habitantesDeColombia>poblacionPromedio;
+console.log("¿Colombia tiene mas poblacion que la poblacion promedio?",comparandoPoblacion);
+
+//E
+let descripción= "Colombia está en América, y Bucaramanga que está en el departamento de 3000 personas hablan inglés."
+
+
